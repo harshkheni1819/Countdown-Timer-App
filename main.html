@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Countdown Timer</h1>
+        <div class="input-group">
+          <input type="text" id="timerLabel" placeholder="Enter Timer Name" />
+          <input type="datetime-local" id="datetime" />
+          <button id="addTimerBtn">Add Timer</button>
+        </div>
+        <div id="timers"></div>
+      </div>
+    
+      <!-- Sound Effect -->
+      <audio id="alertSound" src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"></audio>
+</body>
+<script src="main.js"></script>
+</html>
